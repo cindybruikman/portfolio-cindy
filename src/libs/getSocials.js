@@ -1,7 +1,7 @@
-import socials from "../../public/fakedata/socials"
+import socials from "../../public/data/socials";
 
 const getSocials = () => {
-    return  socials
+  return socials;
 };
 
 export default getSocials;

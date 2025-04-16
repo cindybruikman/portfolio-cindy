@@ -1,23 +1,12 @@
 [
-
   {
-    "name":"Over mij",
-    "path":"#services",
-    "path2":"/#services"  
+    "name": "Over mij",
+    "path": "#about",
+    "path2": "/#about"
   },
   {
-    "name":"Skills & Tools",
-    "path":"#portfolio",
-    "path2":"/#portfolio"  
-  },
-  {
-    "name":"Ervaring",
-    "path":"#resume",
-    "path2":"/#resume"  
-  },
-  {
-    "name":"Projecten",
-    "path":"#skills",
-    "path2":"/#skills"  
+    "name": "Projecten",
+    "path": "#portfolio",
+    "path2": "/#portfolio"
   }
 ]

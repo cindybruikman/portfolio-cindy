@@ -26,8 +26,18 @@ const PortfolioDetailsPrimary = () => {
   const portfolio = getAPortfolio(currentId);
   const pervPortfolio = getAPortfolio(prevId);
   const nextPortfolio = getAPortfolio(nextId);
-  const { title, title2, desc, desc1, desc2, img, descItems, statusItem } =
-    portfolio || {};
+  const {
+    title,
+    title2,
+    desc,
+    desc1,
+    desc2,
+    img,
+    descItems,
+    statusItem,
+    externalLink,
+  } = portfolio || {};
+
   const isPrevProject = currentId > 1;
   const isNextProject = currentId < totalPorfolio;
 
@@ -38,7 +48,7 @@ const PortfolioDetailsPrimary = () => {
           {/* <!-- portfolio --> */}
           <div className="group relative wow fadeInUp" data-wow-delay=".3s">
             <div className="relative overflow-hidden">
-              <div className="overflow-hidden p-5 md:p-10 xl:p-60px pb-0 md:pb-0 xl:pb-0 bg-cream-light-color dark:bg-seondary-color">
+              {/* <div className="overflow-hidden p-5 md:p-10 xl:p-60px pb-0 md:pb-0 xl:pb-0 bg-cream-light-color dark:bg-seondary-color">
                 <Image
                   src={img}
                   alt=""
@@ -46,7 +56,7 @@ const PortfolioDetailsPrimary = () => {
                   width={2000}
                   height={2000}
                 />
-              </div>
+              </div> */}
 
               <div className="pt-30px md:pt-10 lg:pt-60px">
                 <div className="transition-all duration-500">
@@ -66,7 +76,9 @@ const PortfolioDetailsPrimary = () => {
                         <div>
                           <ButtonPrimary
                             className={"group/nested"}
-                            url={"/#contact"}
+                            url={externalLink || "#"}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             live preview
                             <i className="fal fa-arrow-right ml-10px -rotate-45 group-hover/nested:rotate-0 transition-all duration-300"></i>

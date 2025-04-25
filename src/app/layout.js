@@ -18,6 +18,7 @@ export const metadata = {
   description: "Cindy - Portfolio",
 };
 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark ">

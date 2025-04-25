@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Over mij",
+    "path": "#about",
+    "path2": "/#about"
+  },
+  {
+    "name": "Projecten",
+    "path": "#portfolio",
+    "path2": "/#portfolio"
+  }
+]

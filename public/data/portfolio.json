@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "title": "RunSync",
+    "title2": "Projectbeschrijving",
+    "img": "/img/portfolio/2.png",
+    "imgLarge": "/img/project/project-5.png",
+    "detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+    "desc": "RunSync is een opkomend project gericht op hardloopliefhebbers. Het platform wordt momenteel ontwikkeld en zal gebruikers in staat stellen hun prestaties te synchroniseren, analyseren en verbeteren.",
+    "shortDesc": "In ontwikkeling: een platform voor hardlopers.",
+    "desc1": "RunSync is ontworpen om hardlopers te helpen hun trainingen beter te volgen en te analyseren. Hoewel het project nog in de maak is, ligt de focus op gebruiksvriendelijkheid, datavisualisatie en synchronisatie met populaire wearables.",
+    "desc2": "Momenteel is RunSync in de ontwikkelingsfase. Het team werkt aan het creëren van een intuïtieve gebruikerservaring met functies zoals route-tracking, statistieken, persoonlijke doelen en community-interactie.",
+    "category": "Tech & Sport",
+    "featured": true,
+    "featuredDesc": "RunSync is een veelbelovend project in ontwikkeling. Het combineert technologie en sport om een platform te bieden voor hardlopers van elk niveau.",
+    "featuredImg": "/img/project/project-2.png",
+    "employee": {
+      "name": "Jeremy Doughlas",
+      "desig": "UI & UX Designer",
+      "img": "/img/project/project-1.png"
+    },
+    "tags": ["Hardlopen", "Tracking", "UX Design"],
+    "dataFilter": "techsport",
+    "statusItem": [
+      {
+        "title": "Categorie",
+        "desc": "Webapplicatie"
+      },
+      {
+        "title": "Opdracht",
+        "desc": "Fontys"
+      },
+      {
+        "title": "Startdatum",
+        "desc": "7 April, 2025"
+      },
+      {
+        "title": "Ontwerper",
+        "desc": "Cindy Bruikman"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Het verhaal",
+        "desc": "RunSync ontstond vanuit de behoefte aan een modern en gebruiksvriendelijk platform voor hardlopers. De focus ligt op het combineren van technologie met sport om data-gedreven inzichten te bieden voor persoonlijke groei en motivatie."
+      },
+      {
+        "title": "Onze aanpak",
+        "desc": "We bouwen RunSync stap voor stap op met feedback van gebruikers, iteratief design en focus op prestaties. De ontwikkeling is nog gaande, maar het doel is om een krachtige tool te creëren voor iedere hardloper."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Blue Keys",
+    "title2": "Blue Keys",
+    "externalLink": "https://cindybruikman.github.io/blue-keys/",
+    "img": "/img/portfolio/mockup-bluekeys.png",
+    "imgLarge": "/img/portfolio/1.jpg",
+    "detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+    "desc": "Blue Keys is een statische webpagina gericht op digitale toegankelijkheid. Gebouwd met HTML, CSS en een beetje JavaScript, met veel aandacht voor structuur, contrast en gebruiksvriendelijkheid.",
+    "shortDesc": "Een toegankelijke webpagina gebouwd met HTML, CSS en JavaScript.",
+    "desc1": "Het doel van Blue Keys was om een toegankelijke, overzichtelijke pagina te ontwikkelen met een duidelijke focus op WCAG-richtlijnen. Denk aan goed kleurcontrast, leesbare typografie, duidelijke navigatie en semantische HTML.",
+    "desc2": "Er is gebruikgemaakt van een eenvoudige codebase, zonder frameworks, om de structuur en werking volledig zelf te beheersen. Kleine JavaScript-functionaliteiten zorgen voor extra interactiviteit waar nodig, zonder de toegankelijkheid in gevaar te brengen.",
+
+    "category": "UX/UI",
+    "featured": true,
+    "featuredDesc": "In dit project heb ik gewerkt aan een toegankelijke webpagina met de nadruk op de basis: HTML, CSS en gebruiksvriendelijkheid. Minder is soms meer — en eenvoud maakt het toegankelijk voor iedereen.",
+    "featuredImg": "/img/project/project-3.png",
+    "employee": {
+      "name": "Cindy Bruikman",
+      "desig": "",
+      "img": ""
+    },
+    "tags": ["HTML", "CSS", "JavaScript", "Toegankelijkheid", "WCAG"],
+    "dataFilter": "uxui",
+    "statusItem": [
+      {
+        "title": "Categorie",
+        "desc": "Front-end / Accessibility"
+      },
+      {
+        "title": "GitHub",
+        "desc": "github.com/cindybruikman/blue-keys"
+      },
+      {
+        "title": "Startdatum",
+        "desc": "Maart 2024"
+      },
+      {
+        "title": "Technologieën",
+        "desc": "HTML, CSS, JavaScript"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Het verhaal",
+        "desc": "Blue Keys begon als een oefening in digitale toegankelijkheid en werd een volledig uitgewerkte statische webpagina met een heldere structuur. Ik wilde aantonen dat goede toegankelijkheid niet afhankelijk is van frameworks, maar juist van bewuste keuzes in structuur en styling."
+      },
+      {
+        "title": "Mijn aanpak",
+        "desc": "Ik ben gestart met het opzetten van een semantische HTML-structuur, ondersteund door duidelijke visuele hiërarchie in CSS. Vervolgens heb ik kleine JavaScript-features toegevoegd om de interactiviteit te verbeteren, zoals eenvoudige toggles. Alles werd getest met keyboard-only navigatie en toegankelijkheidstools zoals Lighthouse."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sebastian",
+    "title2": "Project Description",
+    "img": "/img/portfolio/4.png",
+    "imgLarge": "/img/portfolio/4.jpg",
+    "detailsImg": "/img/portfolio/portfolio-details-3.jpg",
+    "desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
+    "shortDesc": "Project was about precision and information",
+    "desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    "desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+
+    "category": "Apps",
+    "featured": true,
+    "featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
+    "featuredImg": "/img/project/project-4.png",
+    "employee": {
+      "name": "",
+      "desig": "",
+      "img": ""
+    },
+    "tags": ["Branding", "Graphic Design", "User Stories"],
+    "dataFilter": "mobile-app",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Web Design"
+      },
+      {
+        "title": "Client",
+        "desc": "Artboard Studio"
+      },
+      {
+        "title": "Start Date",
+        "desc": "August 20, 2023"
+      },
+      {
+        "title": "Designer",
+        "desc": "ThemeJunction"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The story",
+        "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+      },
+      {
+        "title": "OUR APPROACH",
+        "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Mochnix",
+    "title2": "Project Description",
+    "img": "/img/portfolio/1.jpg",
+    "imgLarge": "/img/portfolio/3.jpg",
+    "detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+    "desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
+    "shortDesc": "Project was about precision and information",
+    "desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    "desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+
+    "category": "Branding",
+    "featured": false,
+    "featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
+    "featuredImg": "/img/project/project-2.png",
+    "employee": {
+      "name": "",
+      "desig": "",
+      "img": ""
+    },
+    "tags": ["Branding", "Graphic Design", "User Stories"],
+    "dataFilter": "branding",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Web Design"
+      },
+      {
+        "title": "Client",
+        "desc": "Artboard Studio"
+      },
+      {
+        "title": "Start Date",
+        "desc": "August 20, 2023"
+      },
+      {
+        "title": "Designer",
+        "desc": "ThemeJunction"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The story",
+        "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+      },
+      {
+        "title": "OUR APPROACH",
+        "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+      }
+    ]
+  }
+]

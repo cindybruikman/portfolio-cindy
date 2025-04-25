@@ -41,7 +41,7 @@ const Hero = () => {
             {/* <!-- action and social --> */}
             <div className="flex items-center gap-30px lg:gap-25px mt-5 flex-wrap lg:flex-nowrap md:mt-30px lg:mt-50px">
               <div>
-                <ButtonSeondary url="#contact">
+                <ButtonSeondary url="https://acrobat.adobe.com/id/urn:aaid:sc:EU:7048cb48-34e8-47f0-b2a7-93c469e423d1">
                   Download CV{" "}
                   <i className="flaticon-download ml-0.5 text-size-17"></i>
                 </ButtonSeondary>

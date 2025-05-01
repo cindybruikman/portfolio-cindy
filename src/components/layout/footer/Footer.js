@@ -70,7 +70,7 @@ const Footer = () => {
 							className={`copyright ${
 								footerType === 2 || footerType === 3
 									? "text-primary-color"
-									: "text-gray-color"
+									: "text-white-color"
 							} whitespace-nowrap text-sm md:text-base mt-5`}
 						>
 							© 2024 All rights reserved by{" "}
@@ -82,7 +82,7 @@ const Footer = () => {
 										: "text-white-color"
 								} hover:text-primary-color`}
 							>
-								ThemeJunction
+								Cindy
 							</Link>
 						</div>
 					</div>

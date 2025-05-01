@@ -536,10 +536,6 @@ img, video {
   margin-bottom: 1rem;
 }
 
-.mb-45px {
-  margin-bottom: 2.8125rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -830,10 +826,6 @@ img, video {
 
 .max-w-265px {
   max-width: 265px;
-}
-
-.max-w-330px {
-  max-width: 330px;
 }
 
 .max-w-355px {
@@ -1721,10 +1713,6 @@ img, video {
   font-weight: 500;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
 .font-semibold {
   font-weight: 600;
 }
@@ -1743,10 +1731,6 @@ img, video {
 
 .leading-1\.2 {
   line-height: 1.2;
-}
-
-.leading-1\.4 {
-  line-height: 1.4;
 }
 
 .leading-1\.5 {

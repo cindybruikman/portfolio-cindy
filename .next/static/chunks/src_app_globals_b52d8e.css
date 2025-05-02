@@ -1267,7 +1267,7 @@ img, video {
 
 .bg-primary-color-light {
   --tw-bg-opacity: 1;
-  background-color: rgb(71 81 107 / var(--tw-bg-opacity, 1));
+  background-color: rgb(12 20 51 / var(--tw-bg-opacity, 1));
 }
 
 .bg-seondary-color {
@@ -1780,7 +1780,7 @@ img, video {
 
 .text-primary-color-light {
   --tw-text-opacity: 1;
-  color: rgb(71 81 107 / var(--tw-text-opacity, 1));
+  color: rgb(12 20 51 / var(--tw-text-opacity, 1));
 }
 
 .text-seondary-color {
@@ -3002,7 +3002,7 @@ body.loaded {
 .before\:text-primary-color-light:before {
   content: var(--tw-content);
   --tw-text-opacity: 1;
-  color: rgb(71 81 107 / var(--tw-text-opacity, 1));
+  color: rgb(12 20 51 / var(--tw-text-opacity, 1));
 }
 
 .before\:transition-all:before {
@@ -3241,7 +3241,7 @@ body.loaded {
 .after\:bg-primary-color-light:after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(71 81 107 / var(--tw-bg-opacity, 1));
+  background-color: rgb(12 20 51 / var(--tw-bg-opacity, 1));
 }
 
 .after\:bg-white-color:after {
@@ -3534,12 +3534,12 @@ body.loaded {
 
 .dark\:bg-dark-color:is(.dark *) {
   --tw-bg-opacity: 1;
-  background-color: rgb(15 7 21 / var(--tw-bg-opacity, 1));
+  background-color: rgb(7 9 20 / var(--tw-bg-opacity, 1));
 }
 
 .dark\:bg-primary-color-light:is(.dark *) {
   --tw-bg-opacity: 1;
-  background-color: rgb(71 81 107 / var(--tw-bg-opacity, 1));
+  background-color: rgb(12 20 51 / var(--tw-bg-opacity, 1));
 }
 
 .dark\:bg-seondary-color:is(.dark *) {

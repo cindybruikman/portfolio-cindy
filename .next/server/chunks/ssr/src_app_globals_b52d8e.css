@@ -2045,7 +2045,7 @@ img {
   z-index: 100;
   opacity: 0;
   transition: all .3s;
-  box-shadow: 0 0 30px #8750f733;
+  box-shadow: 0 0 30px #5069f733;
 }
 
 .header-area.header-2.sticky {

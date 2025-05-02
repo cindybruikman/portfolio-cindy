@@ -8,16 +8,12 @@ const filterButtons = [
     dataFilter: "*",
   },
   {
+    name: "Front-end",
+    dataFilter: ".frontend",
+  },
+  {
     name: "UX/UI",
     dataFilter: ".uxui",
-  },
-  {
-    name: "Branding",
-    dataFilter: ".branding",
-  },
-  {
-    name: "Apps",
-    dataFilter: ".mobile-app",
   },
 ];
 const ButtonGroup = () => {

@@ -6,82 +6,87 @@ const Contact1 = () => {
       <div className="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-100px xl:py-30">
         <div className="container">
           <div className="flex flex-col-reverse md:grid md:grid-cols-12 md:items-center gap-x-6 gap-y-10 overflow-hidden">
-            {/* <!-- section heading --> */}
+            {/* <!-- Form --> */}
             <div className="md:col-start-1 md:col-span-7 lg:col-span-6">
-              <div className=" wow fadeInLeft" data-wow-delay=".3s">
-                <form className="contact px-15px py-30px md:px-5 lg:px-30px lg:py-10 xl:px-10 bg-white-color dark:bg-primary-color-light rounded-15px">
-                  <div className="mb-25px text-center">
-                    <h2 className="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px">
-                      Neem Contact op!
-                    </h2>
-                    <p
-                      className="text-primary-color-light dark:text-body-color wow fadeInLeft"
-                      data-wow-delay=".4s"
+              <form
+                action="https://formspree.io/f/mvgakrzl"
+                method="POST"
+                className="contact px-15px py-30px md:px-5 lg:px-30px lg:py-10 xl:px-10 bg-white-color dark:bg-primary-color-light rounded-15px"
+              >
+                <div style={{ display: "none" }}>
+                  <label htmlFor="website">Laat dit veld leeg</label>
+                  <input
+                    type="text"
+                    name="website"
+                    id="website"
+                    tabIndex="-1"
+                    autoComplete="off"
+                  />
+                </div>
+                <div className="mb-25px text-center">
+                  <h2 className="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px">
+                    Neem Contact op!
+                  </h2>
+                  <p className="text-primary-color-light dark:text-body-color">
+                    Voor vragen of een samenwerking neem gerust contact op.
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-15px">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Voornaam"
+                      className="text-primary-color-light dark:text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg placeholder:text-gray-color"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      name="achternaam"
+                      placeholder="Achternaam"
+                      required
+                      className="text-primary-color-light dark:text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg placeholder:text-gray-color"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Email adres"
+                      required
+                      className="text-primary-color-light dark:text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg placeholder:text-gray-color"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      name="telefoon"
+                      placeholder="Telefoonnummer"
+                      className="text-primary-color-light dark:text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg placeholder:text-gray-color"
+                    />
+                  </div>
+                  <div className="sm:col-span-2">
+                    <textarea
+                      name="bericht"
+                      rows="6"
+                      placeholder="Je bericht"
+                      required
+                      className="text-primary-color-light dark:text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg placeholder:text-gray-color"
+                    ></textarea>
+                  </div>
+                  <div className="sm:col-span-2 text-center mt-4">
+                    <button
+                      type="submit"
+                      className="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-gradient-secondary rounded-full transition-all duration-300"
                     >
-                      Voor vragen of een samenwerking neem gerust contact op.
-                    </p>
+                      Stuur bericht
+                    </button>
                   </div>
-                  {/* <!-- inputs --> */}
-                  <div
-                    className="grid grid-cols-1 sm:grid-cols-2 gap-15px wow fadeInUp"
-                    data-wow-delay=".5s"
-                  >
-                    {/* <!-- first name --> */}
-                    <div>
-                      <input
-                        type="text"
-                        placeholder="Voornaam"
-                        className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
-                      />
-                    </div>
-                    {/* <!-- Last name --> */}
-                    <div>
-                      <input
-                        type="text"
-                        placeholder="Achternaam"
-                        className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
-                      />
-                    </div>
-                    {/* <!-- Email address --> */}
-                    <div>
-                      <input
-                        type="email"
-                        placeholder="Email adres"
-                        className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
-                      />
-                    </div>
-                    {/* <!-- Phone number --> */}
-                    <div>
-                      <input
-                        type="text"
-                        placeholder="Telefoonnummer"
-                        className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
-                      />
-                    </div>
-                    <div className="form_group sm:col-start-1 sm:col-span-2">
-                      {/* <FormSelect /> */}
-                    </div>
-                    <div className="sm:col-start-1 sm:col-span-2">
-                      <textarea
-                        cols="1"
-                        rows="10"
-                        placeholder="Message"
-                        className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
-                      />
-                    </div>
-                    <div className="sm:col-start-1 sm:col-span-2">
-                      <button
-                        type="submit"
-                        className="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full leading-1 transition-all duration-300"
-                      >
-                        Stuur bericht
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+                </div>
+              </form>
             </div>
-            {/* <!-- experience single area --> */}
+            {/* <!-- End Form --> */}
           </div>
         </div>
       </div>

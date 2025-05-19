@@ -84,14 +84,7 @@
       "desig": "Front-end Developer",
       "img": ""
     },
-    "tags": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Toegankelijkheid",
-      "WCAG",
-      "Branding"
-    ],
+    "tags": ["HTML", "CSS", "JavaScript", "Toegankelijkheid", "WCAG"],
     "dataFilter": "frontend",
     "statusItem": [
       {
@@ -129,59 +122,59 @@
     "externalLink": "",
     "img": "/img/portfolio/taskit.jpg",
     "gallery": [
-      "/img/portfolio-gallery/bluekeys-1.jpg",
-      "/img/portfolio-gallery/bluekeys-2.jpg",
-      "/img/portfolio-gallery/bluekeys-3.jpg",
-      "/img/portfolio-gallery/bluekeys-4.jpg"
+      "/img/portfolio-gallery/taskit-1.jpg",
+      "/img/portfolio-gallery/taskit-2.jpg",
+      "/img/portfolio-gallery/taskit-3.jpg",
+      "/img/portfolio-gallery/taskit-4.jpg"
     ],
-    "desc": "Blue Keys is een fictief bedrijf en een statische webpagina die ik heb ontwikkeld als oefenproject om mijn front-end skills en aandacht voor digitale toegankelijkheid te testen. Het is gebouwd met HTML, CSS en JavaScript, met een sterke focus op structuur, branding en WCAG-richtlijnen.",
-    "shortDesc": "Toegankelijke fictieve bedrijfssite gebouwd met HTML, CSS en JavaScript.",
-    "desc1": "Het project Blue Keys ontstond als een oefening om mijn programmeervaardigheden te testen. De naam is geïnspireerd op mijn interesse in muziek. Naast het technische deel heb ik ook de branding ontwikkeld, inclusief de naam, tone of voice en logo.",
-    "desc2": "Digitale toegankelijkheid stond centraal bij dit project. Ik heb gezorgd voor goed kleurcontrast, toegankelijke formulieren en een logische structuur. Alles is getest aan de hand van WCAG-richtlijnen en tools zoals browserextensies en Lighthouse.",
+    "desc": "Taskit is een UX-georiënteerd project waarin ik een takenlijst-app heb ontworpen met oog voor gebruiksgemak, structuur en motivatie. Het project is opgebouwd rondom inzichten uit gedragspsychologie en richt zich op studenten in de ICT-sector.",
+    "shortDesc": "To do list app gericht op structuur, motivatie en gebruikersgemak.",
+    "desc1": "Voor dit persoonlijke schoolproject ontwikkelde ik Taskit: een to-do list applicatie met een sterke focus op UX design. De doelgroep bestaat uit ICT-studenten van 18–30 jaar. Na doelgroepanalyse en interviews werkte ik een concept uit dat inspeelt op structuurbehoefte, motivatie en studieroutine.",
+    "desc2": "Ik heb gebruikgemaakt van CMD-methodes om het concept vorm te geven, inclusief persona’s, wireframes en prototypes. De interface is ontworpen met Adobe XD, waarbij ik rekening hield met duidelijke visuele hiërarchie en eenvoudig taakbeheer. Ik onderzocht ook de psychologie achter to-do lijsten, zoals het Zeigarnik-effect, om de motivatie te vergroten.",
     "category": "UX/UI",
     "featured": true,
-    "featuredDesc": "In Blue Keys komen branding, techniek en toegankelijkheid samen. Met een eenvoudige codebase en oog voor detail laat dit project zien hoe toegankelijk webdesign functioneel én stijlvol kan zijn.",
+    "featuredDesc": "Taskit is meer dan een takenlijst. Het project combineert gebruikersonderzoek, gedragspsychologie en functioneel ontwerp tot een concreet prototype dat inspeelt op de behoeften van jonge tech-studenten.",
     "featuredImg": "/img/project/project-3.png",
     "employee": {
       "name": "Cindy Bruikman",
-      "desig": "Front-end Developer",
+      "desig": "UX Designer",
       "img": ""
     },
     "tags": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Toegankelijkheid",
-      "WCAG",
-      "Branding"
+      "Prototype",
+      "Wireframes",
+      "UX/UI",
+      "Adobe XD",
+      "Gedragsonderzoek",
+      "Conceptontwikkeling"
     ],
     "dataFilter": "uxui",
     "statusItem": [
       {
         "title": "Categorie",
-        "desc": "Front-end / Accessibility"
+        "desc": "UX / UI Design"
       },
       {
-        "title": "GitHub",
-        "desc": ""
+        "title": "Opdracht",
+        "desc": "Fontys"
       },
       {
         "title": "Startdatum",
-        "desc": "Maart 2024"
+        "desc": "September 2023"
       },
       {
-        "title": "Technologieën",
-        "desc": "HTML, CSS, JavaScript"
+        "title": "Tools & Methodes",
+        "desc": "Adobe XD, Adobe Illustrator, CMD-methodes, Doelgroeponderzoek"
       }
     ],
     "descItems": [
       {
         "title": "Het verhaal",
-        "desc": "Blue Keys is ontstaan vanuit een persoonlijke opdracht om mijn technische en creatieve vaardigheden te combineren. De fictieve bedrijfswebsite werd een platform waarop ik mijn kennis van branding, code en toegankelijkheid samenbracht in één concreet eindproduct."
+        "desc": "Taskit begon als een opdracht om mijn UX-vaardigheden te verdiepen. Door het combineren van gebruikersonderzoek, gedragsinzichten en ontwerpprincipes ontstond een to-do app die studenten helpt productief te blijven en rust te creëren in hun studieplanning."
       },
       {
         "title": "Mijn aanpak",
-        "desc": "Ik startte met het opzetten van een duidelijke HTML-structuur, ondersteund door visuele hiërarchie in CSS. De interactieve elementen, zoals formulieren, zijn met JavaScript versterkt zonder de toegankelijkheid uit het oog te verliezen. De site is getest met toetsenbordnavigatie en geverifieerd via WCAG-tools en extensies."
+        "desc": "Ik startte met een doelgroepanalyse en interviews, gevolgd door wireframes en prototypes. De interface is ontworpen op basis van motivatieprincipes uit de psychologie. Door realistische tijdsinschattingen en taakverdeling te integreren, stimuleert Taskit efficiënt gedrag zonder te overweldigen."
       }
     ]
   }

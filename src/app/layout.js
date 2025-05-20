@@ -14,7 +14,7 @@ import "./css/odometer-theme-default.css";
 import "./globals.css";
 
 export const metadata = {
-  title: "Cindy - Pertfolio",
+  title: "Cindy - Portfolio",
   description: "Cindy - Portfolio",
 };
 

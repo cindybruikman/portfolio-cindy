@@ -22,7 +22,7 @@ container
 // variables
 const primaryColor = "#4169E1";
 const primaryColor2 = "#3b5fcb";
-const primaryColorLight = "#47516B";
+const primaryColorLight = "#0C1433";
 const seondaryColor = "#314FA9";
 const bodyColor = "#dddddd";
 const bodyColor2 = "#7A7A7A";
@@ -34,7 +34,7 @@ const grayColor2 = "#747779";
 const grayColor3 = "#22272c";
 const borderColor = "#d9d9d9";
 const creamLightColor = "#F4F6FC";
-const darkColor = "#0f0715";
+const darkColor = "#070914";
 const bgColor = "#10171c";
 const bgColor2 = "#FFFFFF1A";
 const bgColor3 = "#d9d9d980";

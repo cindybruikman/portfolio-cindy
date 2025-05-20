@@ -9,12 +9,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-const sliderItems = [
-  "/img/portfolio-gallery/p-gallery-1.jpg",
-  "/img/portfolio-gallery/p-gallery-2.jpg",
-  "/img/portfolio-gallery/p-gallery-3.jpg",
-  "/img/portfolio-gallery/p-gallery-4.jpg",
-];
+
 const PortfolioDetailsPrimary = () => {
   const portfolios = getPortfolio();
   const params = useParams();
@@ -26,20 +21,12 @@ const PortfolioDetailsPrimary = () => {
   const portfolio = getAPortfolio(currentId);
   const pervPortfolio = getAPortfolio(prevId);
   const nextPortfolio = getAPortfolio(nextId);
-  const {
-    title,
-    title2,
-    desc,
-    desc1,
-    desc2,
-    img,
-    descItems,
-    statusItem,
-    externalLink,
-  } = portfolio || {};
-
+  const { title, title2, desc, desc1, desc2, img, descItems, statusItem } =
+    portfolio || {};
   const isPrevProject = currentId > 1;
   const isNextProject = currentId < totalPorfolio;
+
+  const sliderItems = portfolio?.gallery || [];
 
   return (
     <section>
@@ -53,8 +40,8 @@ const PortfolioDetailsPrimary = () => {
                   src={img}
                   alt=""
                   className="w-full"
-                  width={2000}
-                  height={2000}
+                  width={1000}
+                  height={1000}
                 />
               </div> */}
 
@@ -76,9 +63,7 @@ const PortfolioDetailsPrimary = () => {
                         <div>
                           <ButtonPrimary
                             className={"group/nested"}
-                            url={externalLink || "#"}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            url={"/#contact"}
                           >
                             live preview
                             <i className="fal fa-arrow-right ml-10px -rotate-45 group-hover/nested:rotate-0 transition-all duration-300"></i>
@@ -104,40 +89,39 @@ const PortfolioDetailsPrimary = () => {
                     {/* <!-- slider --> */}
 
                     <div className="mb-15px md:mb-5 px-15px md:px-0">
-                      <Swiper
-                        spaceBetween={20}
-                        slidesPerView={1}
-                        loop={true}
-                        centeredSlides={true}
-                        pagination={{
-                          clickable: true,
-                        }}
-                        speed={1000}
-                        autoplay={{
-                          delay: 7000,
-                          disableOnInteraction: false,
-                        }}
-                        breakpoints={{
-                          768: {
-                            slidesPerView: 2,
-                          },
-                          992: {
-                            slidesPerView: 2,
-                            spaceBetween: 30,
-                          },
-                        }}
-                        modules={[Pagination, Autoplay]}
-                        className="portfolio-slider"
-                      >
-                        {sliderItems?.length
-                          ? sliderItems?.map((sliderItem, idx) => (
-                              <SwiperSlide key={idx}>
-                                <GallerySingle url={sliderItem} />
-                              </SwiperSlide>
-                            ))
-                          : ""}
-                      </Swiper>
+                      {sliderItems?.length > 0 && (
+                        <Swiper
+                          spaceBetween={20}
+                          slidesPerView={1}
+                          loop={true}
+                          centeredSlides={true}
+                          pagination={{ clickable: true }}
+                          speed={1000}
+                          autoplay={{
+                            delay: 7000,
+                            disableOnInteraction: false,
+                          }}
+                          breakpoints={{
+                            768: {
+                              slidesPerView: 2,
+                            },
+                            992: {
+                              slidesPerView: 2,
+                              spaceBetween: 30,
+                            },
+                          }}
+                          modules={[Pagination, Autoplay]}
+                          className="portfolio-slider"
+                        >
+                          {sliderItems.map((sliderItem, idx) => (
+                            <SwiperSlide key={idx}>
+                              <GallerySingle url={sliderItem} />
+                            </SwiperSlide>
+                          ))}
+                        </Swiper>
+                      )}
                     </div>
+
                     {/* <!-- description wrapper --> */}
                     <div className="px-15px md:px-25px lg:px-10">
                       {/* <!-- descrion --> */}

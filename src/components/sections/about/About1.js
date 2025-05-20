@@ -14,40 +14,36 @@ const About1 = () => {
                 className="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 font-medium bg-gradient-text-light inline-block dark:bg-gradient-text bg-clip-text leading-1.2 xl:leading-1.2 text-transparent mb-5 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
-                Mijn reis als developer.
+                Wie ben ik?
               </h2>
 
               <p
                 className="text-xl leading-1.5 text-primary-color-light dark:text-body-color max-w-540px wow fadeInUp"
                 data-wow-delay="0.4s"
               >
-                Tijdens mijn studie ICT Media heb ik mijn passie gevonden in
-                front-end development. Ik heb gewerkt aan uiteenlopende
-                projecten, van webdesign tot React-apps, en ik blijf mezelf
-                uitdagen om telkens weer iets beters te maken. Verder ben ik
-                iemand die hard werkt en de dag begint met een goede bak koffie.
-                Naast mijn studie heb ik een hobby voor auto&apos;s, muziek en
-                sporten.
+                Tijdens mijn studie ICT Media heb ik mijn passie voor front-end
+                development ontdekt. Ik heb aan uiteenlopende projecten gewerkt,
+                van webdesign tot het bouwen van React-applicaties.<br></br>
+                <br></br> Hierbij blijf ik mezelf voortdurend uitdagen om steeds
+                iets nieuws te creëren. Ik ben een hardwerkend persoon die
+                altijd streeft naar het beste resultaat en zichzelf continu wil
+                blijven ontwikkelen en verbeteren.<br></br>
+                <br></br>
+                Naast mijn studie heb ik een brede interesse in auto&apos;s,
+                muziek, sport en fotografie.
               </p>
 
               {/* <!-- action and social --> */}
-              <div
-                className="mt-50px 2xl:mt-20 wow fadeInUp"
-                data-wow-delay="0.5s"
-              >
-                <ButtonPrimary3 url={"#contact"}>Contact</ButtonPrimary3>
-              </div>
             </div>
           </div>
           {/* <!-- right --> */}
           <div className="lg:col-start-8 lg:col-span-5 bg-cream-light-color dark:bg-primary-color-light rounded-15px gap-x-15px gap-y-30px md:gap-25px text-primary-color dark:text-body-color overflow-hidden">
-            <div className="2xl:-mt-10px">
+            <div className="relative aspect-[515/449] w-full h-full">
               <Image
-                width={515}
-                height={349}
-                className="w-full"
                 src="/img/hero/about-2.jpg"
-                alt=""
+                alt="About Image"
+                fill
+                className="object-cover"
               />
             </div>
           </div>

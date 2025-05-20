@@ -31,7 +31,7 @@
     "links": [
       {
         "label": "Bekijk de demo",
-        "url": "https://runsync-next.vercel.app/"
+        "url": "https://runsync-next-git-demo-cindybruikmans-projects.vercel.app/"
       },
       {
         "label": "Bekijk de GitHub",
@@ -43,7 +43,7 @@
     "statusItem": [
       {
         "title": "Categorie",
-        "desc": "Webapplicatie"
+        "desc": "Front-end"
       },
       {
         "title": "Opdracht",
@@ -188,8 +188,8 @@
         "desc": "Front-end / Accessibility"
       },
       {
-        "title": "GitHub",
-        "desc": "github.com/cindybruikman/blue-keys"
+        "title": "Opdracht",
+        "desc": "Fontys"
       },
       {
         "title": "Startdatum",

@@ -61,13 +61,18 @@ const PortfolioDetailsPrimary = () => {
                           {desc}
                         </p>
                         <div>
-                          <ButtonPrimary
-                            className={"group/nested"}
-                            url={"/#contact"}
-                          >
-                            live preview
-                            <i className="fal fa-arrow-right ml-10px -rotate-45 group-hover/nested:rotate-0 transition-all duration-300"></i>
-                          </ButtonPrimary>
+                          {portfolio?.links?.length > 0 &&
+                            portfolio.links.map((link, idx) => (
+                              <ButtonPrimary
+                                key={idx}
+                                className="group/nested mr-3 mb-3"
+                                url={link.url}
+                                target="_blank" 
+                              >
+                                {link.label}
+                                <i className="fal fa-arrow-right ml-10px -rotate-45 group-hover/nested:rotate-0 transition-all duration-300"></i>
+                              </ButtonPrimary>
+                            ))}
                         </div>
                       </div>
                       <ul className="grid grid-cols-2 gap-x-15px lg:gap-x-5 gap-y-5 md:gap-y-30px">

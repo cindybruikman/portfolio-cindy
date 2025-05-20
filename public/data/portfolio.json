@@ -28,6 +28,17 @@
       "UX",
       "Branding"
     ],
+    "links": [
+      {
+        "label": "Bekijk de demo",
+        "url": "https://runsync-next.vercel.app/"
+      },
+      {
+        "label": "Bekijk de GitHub",
+        "url": "https://github.com/cindybruikman/runsync-next"
+      }
+    ],
+
     "dataFilter": "frontend uxui",
     "statusItem": [
       {
@@ -94,6 +105,16 @@
       "Data Visualisatie",
       "Journalistiek"
     ],
+    "links": [
+      {
+        "label": "Bekijk de demo",
+        "url": "https://i458219.luna.fhict.nl/"
+      },
+      {
+        "label": "Bekijk de GitHub",
+        "url": "https://github.com/cindybruikman/nos-globe"
+      }
+    ],
     "dataFilter": "frontend dataviz",
     "statusItem": [
       {
@@ -126,6 +147,72 @@
   },
   {
     "id": 3,
+    "title": "Blue Keys",
+    "title2": "Blue Keys",
+    "externalLink": "https://cindybruikman.github.io/blue-keys/",
+    "img": "/img/portfolio/bluekeys.jpg",
+    "gallery": [
+      "/img/portfolio-gallery/bluekeys-1.jpg",
+      "/img/portfolio-gallery/bluekeys-2.jpg",
+      "/img/portfolio-gallery/bluekeys-3.jpg",
+      "/img/portfolio-gallery/bluekeys-4.jpg"
+    ],
+    "desc": "Blue Keys is een fictief bedrijf en een statische webpagina die ik heb ontwikkeld als oefenproject om mijn front-end skills en aandacht voor digitale toegankelijkheid te testen. Het is gebouwd met HTML, CSS en JavaScript, met een sterke focus op structuur, branding en WCAG-richtlijnen.",
+    "shortDesc": "Toegankelijke fictieve bedrijfssite gebouwd met HTML, CSS en JavaScript.",
+    "desc1": "Het project Blue Keys ontstond als een oefening om mijn programmeervaardigheden te testen. De naam is geïnspireerd op mijn interesse in muziek. Naast het technische deel heb ik ook de branding ontwikkeld, inclusief de naam, tone of voice en logo.",
+    "desc2": "Digitale toegankelijkheid stond centraal bij dit project. Ik heb gezorgd voor goed kleurcontrast, toegankelijke formulieren en een logische structuur. Alles is getest aan de hand van WCAG-richtlijnen en tools zoals browserextensies en Lighthouse.",
+    "category": "UX/UI",
+    "featured": true,
+    "featuredDesc": "In Blue Keys komen branding, techniek en toegankelijkheid samen. Met een eenvoudige codebase en oog voor detail laat dit project zien hoe toegankelijk webdesign functioneel én stijlvol kan zijn.",
+    "featuredImg": "/img/project/project-3.png",
+    "employee": {
+      "name": "Cindy Bruikman",
+      "desig": "Front-end Developer",
+      "img": ""
+    },
+    "tags": ["HTML", "CSS", "JavaScript", "Toegankelijkheid", "WCAG"],
+    "links": [
+      {
+        "label": "Bekijk de demo",
+        "url": "https://cindybruikman.github.io/blue-keys/"
+      },
+      {
+        "label": "Bekijk de GitHub",
+        "url": "https://github.com/cindybruikman/blue-keys"
+      }
+    ],
+    "dataFilter": "frontend",
+    "statusItem": [
+      {
+        "title": "Categorie",
+        "desc": "Front-end / Accessibility"
+      },
+      {
+        "title": "GitHub",
+        "desc": "github.com/cindybruikman/blue-keys"
+      },
+      {
+        "title": "Startdatum",
+        "desc": "Maart 2024"
+      },
+      {
+        "title": "Technologieën",
+        "desc": "HTML, CSS, JavaScript"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Het verhaal",
+        "desc": "Blue Keys is ontstaan vanuit een persoonlijke opdracht om mijn technische en creatieve vaardigheden te combineren. De fictieve bedrijfswebsite werd een platform waarop ik mijn kennis van branding, code en toegankelijkheid samenbracht in één concreet eindproduct."
+      },
+      {
+        "title": "Mijn aanpak",
+        "desc": "Ik startte met het opzetten van een duidelijke HTML-structuur, ondersteund door visuele hiërarchie in CSS. De interactieve elementen, zoals formulieren, zijn met JavaScript versterkt zonder de toegankelijkheid uit het oog te verliezen. De site is getest met toetsenbordnavigatie en geverifieerd via WCAG-tools en extensies."
+      }
+    ]
+  },
+  {
+    "id": 4,
     "title": "Taskit",
     "title2": "Taskit",
     "externalLink": "",
@@ -157,6 +244,13 @@
       "Gedragsonderzoek",
       "Conceptontwikkeling"
     ],
+    "links": [
+      {
+        "label": "Bekijk het project",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:354d91f2-4f50-4ac7-9fee-f3b2326f38db"
+      }
+    ],
+
     "dataFilter": "uxui",
     "statusItem": [
       {
@@ -184,62 +278,6 @@
       {
         "title": "Mijn aanpak",
         "desc": "Ik startte met een doelgroepanalyse en interviews, gevolgd door wireframes en prototypes. De interface is ontworpen op basis van motivatieprincipes uit de psychologie. Door realistische tijdsinschattingen en taakverdeling te integreren, stimuleert Taskit efficiënt gedrag zonder te overweldigen."
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Blue Keys",
-    "title2": "Blue Keys",
-    "externalLink": "https://cindybruikman.github.io/blue-keys/",
-    "img": "/img/portfolio/bluekeys.jpg",
-    "gallery": [
-      "/img/portfolio-gallery/bluekeys-1.jpg",
-      "/img/portfolio-gallery/bluekeys-2.jpg",
-      "/img/portfolio-gallery/bluekeys-3.jpg",
-      "/img/portfolio-gallery/bluekeys-4.jpg"
-    ],
-    "desc": "Blue Keys is een fictief bedrijf en een statische webpagina die ik heb ontwikkeld als oefenproject om mijn front-end skills en aandacht voor digitale toegankelijkheid te testen. Het is gebouwd met HTML, CSS en JavaScript, met een sterke focus op structuur, branding en WCAG-richtlijnen.",
-    "shortDesc": "Toegankelijke fictieve bedrijfssite gebouwd met HTML, CSS en JavaScript.",
-    "desc1": "Het project Blue Keys ontstond als een oefening om mijn programmeervaardigheden te testen. De naam is geïnspireerd op mijn interesse in muziek. Naast het technische deel heb ik ook de branding ontwikkeld, inclusief de naam, tone of voice en logo.",
-    "desc2": "Digitale toegankelijkheid stond centraal bij dit project. Ik heb gezorgd voor goed kleurcontrast, toegankelijke formulieren en een logische structuur. Alles is getest aan de hand van WCAG-richtlijnen en tools zoals browserextensies en Lighthouse.",
-    "category": "UX/UI",
-    "featured": true,
-    "featuredDesc": "In Blue Keys komen branding, techniek en toegankelijkheid samen. Met een eenvoudige codebase en oog voor detail laat dit project zien hoe toegankelijk webdesign functioneel én stijlvol kan zijn.",
-    "featuredImg": "/img/project/project-3.png",
-    "employee": {
-      "name": "Cindy Bruikman",
-      "desig": "Front-end Developer",
-      "img": ""
-    },
-    "tags": ["HTML", "CSS", "JavaScript", "Toegankelijkheid", "WCAG"],
-    "dataFilter": "frontend",
-    "statusItem": [
-      {
-        "title": "Categorie",
-        "desc": "Front-end / Accessibility"
-      },
-      {
-        "title": "GitHub",
-        "desc": "github.com/cindybruikman/blue-keys"
-      },
-      {
-        "title": "Startdatum",
-        "desc": "Maart 2024"
-      },
-      {
-        "title": "Technologieën",
-        "desc": "HTML, CSS, JavaScript"
-      }
-    ],
-    "descItems": [
-      {
-        "title": "Het verhaal",
-        "desc": "Blue Keys is ontstaan vanuit een persoonlijke opdracht om mijn technische en creatieve vaardigheden te combineren. De fictieve bedrijfswebsite werd een platform waarop ik mijn kennis van branding, code en toegankelijkheid samenbracht in één concreet eindproduct."
-      },
-      {
-        "title": "Mijn aanpak",
-        "desc": "Ik startte met het opzetten van een duidelijke HTML-structuur, ondersteund door visuele hiërarchie in CSS. De interactieve elementen, zoals formulieren, zijn met JavaScript versterkt zonder de toegankelijkheid uit het oog te verliezen. De site is getest met toetsenbordnavigatie en geverifieerd via WCAG-tools en extensies."
       }
     ]
   }

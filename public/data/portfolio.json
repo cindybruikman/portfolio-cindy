@@ -43,8 +43,8 @@
         "desc": "April 2025"
       },
       {
-        "title": "Ontwerper",
-        "desc": "Cindy Bruikman"
+        "title": "Technologieën",
+        "desc": "React, Next.JS TypeScript, Chart.js, Tailwind, Strava API, OPENAI API, Prisma, Neon"
       }
     ],
     "descItems": [
@@ -58,60 +58,69 @@
       }
     ]
   },
-
   {
     "id": 2,
-    "title": "Blue Keys",
-    "title2": "Blue Keys",
-    "externalLink": "https://cindybruikman.github.io/blue-keys/",
-    "img": "/img/portfolio/bluekeys.jpg",
+    "title": "NOS Globe",
+    "title2": "NOS Globe Hackathon Project",
+    "externalLink": "https://github.com/cindybruikman/nos-globe",
+    "img": "/img/portfolio/nos.jpg",
     "gallery": [
-      "/img/portfolio-gallery/bluekeys-1.jpg",
-      "/img/portfolio-gallery/bluekeys-2.jpg",
-      "/img/portfolio-gallery/bluekeys-3.jpg",
-      "/img/portfolio-gallery/bluekeys-4.jpg"
+      "/img/portfolio-gallery/nos-1.jpg",
+      "/img/portfolio-gallery/nos-2.jpg",
+      "/img/portfolio-gallery/nos-3.jpg",
+      "/img/portfolio-gallery/nos-4.jpg",
+      "/img/portfolio-gallery/nos-5.jpg",
+      "/img/portfolio-gallery/nos-6.jpg"
     ],
-    "desc": "Blue Keys is een fictief bedrijf en een statische webpagina die ik heb ontwikkeld als oefenproject om mijn front-end skills en aandacht voor digitale toegankelijkheid te testen. Het is gebouwd met HTML, CSS en JavaScript, met een sterke focus op structuur, branding en WCAG-richtlijnen.",
-    "shortDesc": "Toegankelijke fictieve bedrijfssite gebouwd met HTML, CSS en JavaScript.",
-    "desc1": "Het project Blue Keys ontstond als een oefening om mijn programmeervaardigheden te testen. De naam is geïnspireerd op mijn interesse in muziek. Naast het technische deel heb ik ook de branding ontwikkeld, inclusief de naam, tone of voice en logo.",
-    "desc2": "Digitale toegankelijkheid stond centraal bij dit project. Ik heb gezorgd voor goed kleurcontrast, toegankelijke formulieren en een logische structuur. Alles is getest aan de hand van WCAG-richtlijnen en tools zoals browserextensies en Lighthouse.",
-    "category": "UX/UI",
+    "desc": "NOS Globe is een interactieve wereldbol waarmee gebruikers wereldnieuws kunnen ontdekken op basis van regio. Het project is ontwikkeld tijdens een hackathon in samenwerking met journalisten en NOS, met de focus op immersieve beleving.",
+    "shortDesc": "3D globe voor nieuwsverkenning. Gebouwd tijdens een NOS-hackathon.",
+    "desc1": "Tijdens een hackathon in samenwerking met journalisten en de NOS kregen we de opdracht om buitenlands nieuws op een nieuwe, immersieve manier te presenteren. Samen met andere studenten hebben we binnen een korte tijd een functioneel prototype gebouwd.",
+    "desc2": "De applicatie toont wereldnieuws op een roterende 3D-globe. Gebruikers kunnen per regio nieuwsverhalen bekijken, filteren op categorie (bijv. politiek, cultuur, klimaat), en zoeken via een live filter. Alles is gebouwd met React, TypeScript, D3.js en Tailwind CSS.",
+    "category": "Data Visualisatie / Front-end",
     "featured": true,
-    "featuredDesc": "In Blue Keys komen branding, techniek en toegankelijkheid samen. Met een eenvoudige codebase en oog voor detail laat dit project zien hoe toegankelijk webdesign functioneel én stijlvol kan zijn.",
-    "featuredImg": "/img/project/project-3.png",
+    "featuredDesc": "NOS Globe brengt buitenlands nieuws op een interactieve, visuele manier. Met behulp van D3.js en React wordt internationale journalistiek toegankelijk voor een jonger en visueel ingesteld publiek.",
+    "featuredImg": "/img/project/project-4.png",
     "employee": {
       "name": "Cindy Bruikman",
-      "desig": "Front-end Developer",
+      "desig": "Front-end Developer / Hackathon Teamlid",
       "img": ""
     },
-    "tags": ["HTML", "CSS", "JavaScript", "Toegankelijkheid", "WCAG"],
-    "dataFilter": "frontend",
+    "tags": [
+      "Hackathon",
+      "D3.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Data Visualisatie",
+      "Journalistiek"
+    ],
+    "dataFilter": "frontend dataviz",
     "statusItem": [
       {
         "title": "Categorie",
-        "desc": "Front-end / Accessibility"
+        "desc": "Hackathon / Datavisualisatie"
       },
       {
-        "title": "GitHub",
-        "desc": "github.com/cindybruikman/blue-keys"
+        "title": "Opdrachtgever",
+        "desc": "NOS / Fontys Mindlabs"
       },
       {
-        "title": "Startdatum",
-        "desc": "Maart 2024"
+        "title": "Datum",
+        "desc": "Mei 2025"
       },
       {
         "title": "Technologieën",
-        "desc": "HTML, CSS, JavaScript"
+        "desc": "React, TypeScript, D3.js, Tailwind, Vite"
       }
     ],
     "descItems": [
       {
         "title": "Het verhaal",
-        "desc": "Blue Keys is ontstaan vanuit een persoonlijke opdracht om mijn technische en creatieve vaardigheden te combineren. De fictieve bedrijfswebsite werd een platform waarop ik mijn kennis van branding, code en toegankelijkheid samenbracht in één concreet eindproduct."
+        "desc": "Samen met een team van developers en journalisten werkten we aan een prototype dat wereldnieuws tastbaarder maakt. De uitdaging was om journalistieke inhoud te vertalen naar een dynamische, interactieve visualisatie die intuïtief werkt voor de gebruiker."
       },
       {
-        "title": "Mijn aanpak",
-        "desc": "Ik startte met het opzetten van een duidelijke HTML-structuur, ondersteund door visuele hiërarchie in CSS. De interactieve elementen, zoals formulieren, zijn met JavaScript versterkt zonder de toegankelijkheid uit het oog te verliezen. De site is getest met toetsenbordnavigatie en geverifieerd via WCAG-tools en extensies."
+        "title": "Mijn bijdrage",
+        "desc": "Ik was betrokken bij de front-end implementatie met React en D3.js. Ik werkte aan het verwerken van de nieuwsdata op de globe, het filter- en zoekgedrag en de styling in Tailwind. Daarnaast dacht ik actief mee over UX en interaction design."
       }
     ]
   },
@@ -180,67 +189,57 @@
   },
   {
     "id": 4,
-    "title": "NOS Globe",
-    "title2": "NOS Globe Hackathon Project",
-    "externalLink": "https://github.com/cindybruikman/nos-globe",
-    "img": "/img/portfolio/nos.jpg",
+    "title": "Blue Keys",
+    "title2": "Blue Keys",
+    "externalLink": "https://cindybruikman.github.io/blue-keys/",
+    "img": "/img/portfolio/bluekeys.jpg",
     "gallery": [
-      "/img/portfolio-gallery/nos-1.jpg",
-      "/img/portfolio-gallery/nos-2.jpg",
-      "/img/portfolio-gallery/nos-3.jpg",
-      "/img/portfolio-gallery/nos-4.jpg",
-      "/img/portfolio-gallery/nos-5.jpg",
-      "/img/portfolio-gallery/nos-6.jpg"
+      "/img/portfolio-gallery/bluekeys-1.jpg",
+      "/img/portfolio-gallery/bluekeys-2.jpg",
+      "/img/portfolio-gallery/bluekeys-3.jpg",
+      "/img/portfolio-gallery/bluekeys-4.jpg"
     ],
-    "desc": "NOS Globe is een interactieve wereldbol waarmee gebruikers wereldnieuws kunnen ontdekken op basis van regio. Het project is ontwikkeld tijdens een hackathon in samenwerking met journalisten en NOS, met de focus op immersieve beleving.",
-    "shortDesc": "3D globe voor nieuwsverkenning. Gebouwd tijdens een NOS-hackathon.",
-    "desc1": "Tijdens een hackathon in samenwerking met journalisten en de NOS kregen we de opdracht om buitenlands nieuws op een nieuwe, immersieve manier te presenteren. Samen met andere studenten hebben we binnen een korte tijd een functioneel prototype gebouwd.",
-    "desc2": "De applicatie toont wereldnieuws op een roterende 3D-globe. Gebruikers kunnen per regio nieuwsverhalen bekijken, filteren op categorie (bijv. politiek, cultuur, klimaat), en zoeken via een live filter. Alles is gebouwd met React, TypeScript, D3.js en Tailwind CSS.",
-    "category": "Data Visualisatie / Front-end",
+    "desc": "Blue Keys is een fictief bedrijf en een statische webpagina die ik heb ontwikkeld als oefenproject om mijn front-end skills en aandacht voor digitale toegankelijkheid te testen. Het is gebouwd met HTML, CSS en JavaScript, met een sterke focus op structuur, branding en WCAG-richtlijnen.",
+    "shortDesc": "Toegankelijke fictieve bedrijfssite gebouwd met HTML, CSS en JavaScript.",
+    "desc1": "Het project Blue Keys ontstond als een oefening om mijn programmeervaardigheden te testen. De naam is geïnspireerd op mijn interesse in muziek. Naast het technische deel heb ik ook de branding ontwikkeld, inclusief de naam, tone of voice en logo.",
+    "desc2": "Digitale toegankelijkheid stond centraal bij dit project. Ik heb gezorgd voor goed kleurcontrast, toegankelijke formulieren en een logische structuur. Alles is getest aan de hand van WCAG-richtlijnen en tools zoals browserextensies en Lighthouse.",
+    "category": "UX/UI",
     "featured": true,
-    "featuredDesc": "NOS Globe brengt buitenlands nieuws op een interactieve, visuele manier. Met behulp van D3.js en React wordt internationale journalistiek toegankelijk voor een jonger en visueel ingesteld publiek.",
-    "featuredImg": "/img/project/project-4.png",
+    "featuredDesc": "In Blue Keys komen branding, techniek en toegankelijkheid samen. Met een eenvoudige codebase en oog voor detail laat dit project zien hoe toegankelijk webdesign functioneel én stijlvol kan zijn.",
+    "featuredImg": "/img/project/project-3.png",
     "employee": {
       "name": "Cindy Bruikman",
-      "desig": "Front-end Developer / Hackathon Teamlid",
+      "desig": "Front-end Developer",
       "img": ""
     },
-    "tags": [
-      "Hackathon",
-      "D3.js",
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Data Visualisatie",
-      "Journalistiek"
-    ],
-    "dataFilter": "frontend dataviz",
+    "tags": ["HTML", "CSS", "JavaScript", "Toegankelijkheid", "WCAG"],
+    "dataFilter": "frontend",
     "statusItem": [
       {
         "title": "Categorie",
-        "desc": "Hackathon / Datavisualisatie"
+        "desc": "Front-end / Accessibility"
       },
       {
-        "title": "Opdrachtgever",
-        "desc": "NOS / Fontys Mindlabs"
+        "title": "GitHub",
+        "desc": "github.com/cindybruikman/blue-keys"
       },
       {
-        "title": "Datum",
-        "desc": "Mei 2025"
+        "title": "Startdatum",
+        "desc": "Maart 2024"
       },
       {
         "title": "Technologieën",
-        "desc": "React, TypeScript, D3.js, Tailwind, Vite"
+        "desc": "HTML, CSS, JavaScript"
       }
     ],
     "descItems": [
       {
         "title": "Het verhaal",
-        "desc": "Samen met een team van developers en journalisten werkten we aan een prototype dat wereldnieuws tastbaarder maakt. De uitdaging was om journalistieke inhoud te vertalen naar een dynamische, interactieve visualisatie die intuïtief werkt voor de gebruiker."
+        "desc": "Blue Keys is ontstaan vanuit een persoonlijke opdracht om mijn technische en creatieve vaardigheden te combineren. De fictieve bedrijfswebsite werd een platform waarop ik mijn kennis van branding, code en toegankelijkheid samenbracht in één concreet eindproduct."
       },
       {
-        "title": "Mijn bijdrage",
-        "desc": "Ik was betrokken bij de front-end implementatie met React en D3.js. Ik werkte aan het verwerken van de nieuwsdata op de globe, het filter- en zoekgedrag en de styling in Tailwind. Daarnaast dacht ik actief mee over UX en interaction design."
+        "title": "Mijn aanpak",
+        "desc": "Ik startte met het opzetten van een duidelijke HTML-structuur, ondersteund door visuele hiërarchie in CSS. De interactieve elementen, zoals formulieren, zijn met JavaScript versterkt zonder de toegankelijkheid uit het oog te verliezen. De site is getest met toetsenbordnavigatie en geverifieerd via WCAG-tools en extensies."
       }
     ]
   }

@@ -1,72 +1,32 @@
-{
-  "design": [
-    {
-      "name": "Photoshop",
-      "img": "/img/icons/photoshop.png"
-    },
-    {
-      "name": "Illustrator",
-      "img": "/img/icons/illustrator.png"
-    },
-    {
-      "name": "InDesign",
-      "img": "/img/icons/indesign.png"
-    },
-    {
-      "name": "Adobe XD",
-      "img": "/img/icons/xd.png"
-    },
-    {
-      "name": "Figma",
-      "img": "/img/icons/figma.png"
-    }
-  ],
-  "frontend": [
-    {
-      "name": "HTML",
-      "img": "/img/icons/html.png"
-    },
-    {
-      "name": "CSS",
-      "img": "/img/icons/css.png"
-    },
-    {
-      "name": "JavaScript",
-      "img": "/img/icons/js.png"
-    },
-    {
-      "name": "TypeScript",
-      "img": "/img/icons/ts.png"
-    },
-    {
-      "name": "React",
-      "img": "/img/icons/react.png"
-    },
-    {
-      "name": "Vue.js",
-      "img": "/img/icons/vue.png"
-    },
-    {
-      "name": "Next.js",
-      "img": "/img/icons/nextjs.png"
-    },
-    {
-      "name": "Tailwind CSS",
-      "img": "/img/icons/tailwind.png"
-    }
-  ],
-  "tools": [
-    {
-      "name": "Git",
-      "img": "/img/icons/git.png"
-    },
-    {
-      "name": "GitHub",
-      "img": "/img/icons/github.png"
-    },
-    {
-      "name": "Node.js",
-      "img": "/img/icons/node.png"
-    }
-  ]
-}
+[
+  {
+    "name": "Figma",
+    "img": "/img/icons/figma.png",
+    "perchant": "92%"
+  },
+  {
+    "name": "Sketch",
+    "img": "/img/icons/sketch.png",
+    "perchant": "80%"
+  },
+  {
+    "name": "XD",
+    "img": "/img/icons/xd.png",
+    "perchant": "85%"
+  },
+  {
+    "name": "WordPress",
+    "img": "/img/icons/wp.png",
+    "perchant": "99%"
+  },
+  {
+    "name": "React",
+    "img": "/img/icons/react.png",
+    "perchant": "89%"
+  },
+  {
+    "name": "JavaScript",
+    "img": "/img/icons/js.png",
+    "perchant": "93%"
+  }
+]

@@ -177,5 +177,71 @@
         "desc": "Ik startte met een doelgroepanalyse en interviews, gevolgd door wireframes en prototypes. De interface is ontworpen op basis van motivatieprincipes uit de psychologie. Door realistische tijdsinschattingen en taakverdeling te integreren, stimuleert Taskit efficiënt gedrag zonder te overweldigen."
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "NOS Globe",
+    "title2": "NOS Globe Hackathon Project",
+    "externalLink": "https://github.com/cindybruikman/nos-globe",
+    "img": "/img/portfolio/nos.jpg",
+    "gallery": [
+      "/img/portfolio-gallery/nos-1.jpg",
+      "/img/portfolio-gallery/nos-2.jpg",
+      "/img/portfolio-gallery/nos-3.jpg",
+      "/img/portfolio-gallery/nos-4.jpg",
+      "/img/portfolio-gallery/nos-5.jpg",
+      "/img/portfolio-gallery/nos-6.jpg"
+    ],
+    "desc": "NOS Globe is een interactieve wereldbol waarmee gebruikers wereldnieuws kunnen ontdekken op basis van regio. Het project is ontwikkeld tijdens een hackathon in samenwerking met journalisten en NOS, met de focus op immersieve beleving.",
+    "shortDesc": "3D globe voor nieuwsverkenning. Gebouwd tijdens een NOS-hackathon.",
+    "desc1": "Tijdens een hackathon in samenwerking met journalisten en de NOS kregen we de opdracht om buitenlands nieuws op een nieuwe, immersieve manier te presenteren. Samen met andere studenten hebben we binnen een korte tijd een functioneel prototype gebouwd.",
+    "desc2": "De applicatie toont wereldnieuws op een roterende 3D-globe. Gebruikers kunnen per regio nieuwsverhalen bekijken, filteren op categorie (bijv. politiek, cultuur, klimaat), en zoeken via een live filter. Alles is gebouwd met React, TypeScript, D3.js en Tailwind CSS.",
+    "category": "Data Visualisatie / Front-end",
+    "featured": true,
+    "featuredDesc": "NOS Globe brengt buitenlands nieuws op een interactieve, visuele manier. Met behulp van D3.js en React wordt internationale journalistiek toegankelijk voor een jonger en visueel ingesteld publiek.",
+    "featuredImg": "/img/project/project-4.png",
+    "employee": {
+      "name": "Cindy Bruikman",
+      "desig": "Front-end Developer / Hackathon Teamlid",
+      "img": ""
+    },
+    "tags": [
+      "Hackathon",
+      "D3.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Data Visualisatie",
+      "Journalistiek"
+    ],
+    "dataFilter": "frontend dataviz",
+    "statusItem": [
+      {
+        "title": "Categorie",
+        "desc": "Hackathon / Datavisualisatie"
+      },
+      {
+        "title": "Opdrachtgever",
+        "desc": "NOS / Fontys Mindlabs"
+      },
+      {
+        "title": "Datum",
+        "desc": "Mei 2025"
+      },
+      {
+        "title": "Technologieën",
+        "desc": "React, TypeScript, D3.js, Tailwind, Vite"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Het verhaal",
+        "desc": "Samen met een team van developers en journalisten werkten we aan een prototype dat wereldnieuws tastbaarder maakt. De uitdaging was om journalistieke inhoud te vertalen naar een dynamische, interactieve visualisatie die intuïtief werkt voor de gebruiker."
+      },
+      {
+        "title": "Mijn bijdrage",
+        "desc": "Ik was betrokken bij de front-end implementatie met React en D3.js. Ik werkte aan het verwerken van de nieuwsdata op de globe, het filter- en zoekgedrag en de styling in Tailwind. Daarnaast dacht ik actief mee over UX en interaction design."
+      }
+    ]
   }
 ]

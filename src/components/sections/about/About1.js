@@ -26,7 +26,7 @@ const About1 = () => {
                 projecten, van webdesign tot React-apps, en ik blijf mezelf
                 uitdagen om telkens weer iets beters te maken. Verder ben ik
                 iemand die hard werkt en de dag begint met een goede bak koffie.
-                Naast mijn studie heb ik een hobby voor autos en muziek.
+                Naast mijn studie heb ik een hobby voor auto&apos;s en muziek.
               </p>
 
               {/* <!-- action and social --> */}
@@ -45,7 +45,7 @@ const About1 = () => {
                 width={515}
                 height={349}
                 className="w-full"
-                src="/img/hero/about-1.png"
+                src="/img/hero/about-2.jpg"
                 alt=""
               />
             </div>

@@ -17,7 +17,7 @@ const Preloader = () => {
       </svg>
 
       <div className="preloader-heading">
-        <div className="load-text">
+        <div className="load-text text-white">
           <span>L</span> <span>o</span> <span>a</span> <span>d</span>{" "}
           <span>i</span> <span>n</span> <span>g</span>
         </div>

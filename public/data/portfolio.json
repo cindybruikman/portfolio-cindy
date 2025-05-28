@@ -107,10 +107,6 @@
     ],
     "links": [
       {
-        "label": "Bekijk de demo",
-        "url": "https://i458219.luna.fhict.nl/"
-      },
-      {
         "label": "Bekijk de GitHub",
         "url": "https://github.com/cindybruikman/nos-globe"
       }

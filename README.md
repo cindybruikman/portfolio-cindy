@@ -12,7 +12,7 @@
 
 ## 🌐 Overview
 
-This portfolio was developed by **Cindy Bruikman** to showcase her work as a front-end developer. It is built with modern technologies such as Next.js, Tailwind CSS, and TypeScript. The site features projects, branding, animations, and multilingual support to better serve international recruiters.
+This portfolio was developed by **Cindy Bruikman** to showcase my work as a front-end developer. It is built with modern technologies such as Next.js, Tailwind CSS, and TypeScript. The site features projects, branding, animations, and multilingual support to better serve international recruiters.
 
 ---
 

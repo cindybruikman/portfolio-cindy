@@ -18,7 +18,7 @@ This portfolio was developed by **Cindy Bruikman** to showcase my work as a fron
 
 ## 🚀 Live Website
 
-🔗 [https://portfolio-cindy.vercel.app](https://portfolio-cindy.vercel.app)
+🔗 [https://cindybruikman.dev](https://cindybruikman.dev)
 
 ---
 
